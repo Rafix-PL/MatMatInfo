@@ -1,0 +1,151 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: antiquewhite;
+    color: darkslategrey;
+}
+#title{
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    text-align: center;
+}
+h1{
+    font-size: 400%;
+}
+h1::first-letter{
+    color: red;
+}
+#plan{
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    /* background-color: blue;  */
+}
+#frame{
+    display: none;
+    margin-top: 15vh;
+    width: 75%;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 30px;
+    padding: 10px 25px ;
+    text-align: center;
+    text-shadow: lightblue 0.2em 0.2em 0.4em 
+}
+p{
+    margin: 5px 10px;
+}
+button{
+    background-color: red;
+    color: white;
+    height: 156px;
+    width: 156px;
+    border: 1px none red;
+    border-radius: 50%;
+    display: block;
+    font-size: 200%;
+    font-weight: bolder;
+    margin-top: 15%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightcoral;
+    box-shadow: 1px 1px 5px red;
+}
+button:active{
+    background-color: antiquewhite;
+    border: 1px solid red;
+    color: red;
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 700px)  {
+    #title{
+        width: 100%;
+        padding-top: 1.2%;
+        padding-bottom: 1.2%;
+        background-color: white;
+        text-align: center;
+    }
+    h1{
+        font-size: 200%;
+    }
+
+
+    #frame{
+        margin-top: 8vh;
+        width: 75%;
+        height: auto;
+        background-color: white;
+        border: 2.2px solid black;
+        border-radius: 10%;
+        font-size: 3vh;
+        padding: 10px 25px ;
+        text-align: center;
+        text-shadow: lightblue 0.05em 0.05em 0.1em
+    }
+    p{
+        margin: 5px 10px;
+    }
+    button{
+        background-color: red;
+        color: white;
+        height: 130px;
+        width: 130px;
+        border: 1px none red;
+        border-radius: 50%;
+        display: block;
+        font-size: 150%;
+        font-weight: bolder;
+        margin-top: 6%;
+        cursor: pointer;
+    }
+    
+  }
+  @media screen and (min-width: 701px) and (max-width: 1400px) {
+    #title{
+        width: 100%;
+        padding-top: 1.2%;
+        padding-bottom: 1.2%;
+        background-color: white;
+        text-align: center;
+    }
+    h1{
+        font-size: 270%;
+    }
+
+
+    #frame{
+        margin-top: 10vh;
+        width: 75%;
+        height: auto;
+        background-color: white;
+        border: 2.2px solid black;
+        border-radius: 10%;
+        font-size: 3.1vh;
+        padding: 10px 25px ;
+        text-align: center;
+        text-shadow: lightblue 0.05em 0.05em 0.1em
+    }
+    p{
+        margin: 5px 10px;
+    }
+    button{
+        background-color: red;
+        color: white;
+        height: 170px;
+        width: 170px;
+        border: 1px none red;
+        border-radius: 50%;
+        display: block;
+        font-size: 2.8vh;
+        font-weight: bolder;
+        margin-top: 6%;
+        cursor: pointer;
+    }
+  }
